@@ -64,7 +64,7 @@ class ViewController: UIViewController {
         // Display play again button
         playAgainButton.isHidden = false
         
-        questionField.text = "Way to go!\nYou got \(triviaController.correctQuestions) out of \(triviaController.questionsPerRound) correct!"
+        questionField.text = "Way to go!\n\nYou got \(triviaController.correctQuestions) out of \(triviaController.questionsPerRound) correct!"
     }
     
     func nextRound() {
