@@ -15,6 +15,7 @@
 		972A72C32056F0E40059EF4A /* GameSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 972A72C22056F0E40059EF4A /* GameSound.wav */; };
 		C081D35E2294F84300881DD4 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = C081D35D2294F84300881DD4 /* Trivia.swift */; };
 		C0B43B752295CAA900D829D1 /* TriviaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B43B742295CAA900D829D1 /* TriviaController.swift */; };
+		C0B43B772295CD5300D829D1 /* SoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B43B762295CD5300D829D1 /* SoundController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		972A72C22056F0E40059EF4A /* GameSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameSound.wav; sourceTree = "<group>"; };
 		C081D35D2294F84300881DD4 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 		C0B43B742295CAA900D829D1 /* TriviaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaController.swift; sourceTree = "<group>"; };
+		C0B43B762295CD5300D829D1 /* SoundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				C0B43B742295CAA900D829D1 /* TriviaController.swift */,
+				C0B43B762295CD5300D829D1 /* SoundController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0B43B752295CAA900D829D1 /* TriviaController.swift in Sources */,
+				C0B43B772295CD5300D829D1 /* SoundController.swift in Sources */,
 				972A72B32056F06C0059EF4A /* ViewController.swift in Sources */,
 				C081D35E2294F84300881DD4 /* Trivia.swift in Sources */,
 				972A72B12056F06C0059EF4A /* AppDelegate.swift in Sources */,
